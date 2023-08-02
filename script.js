@@ -8,13 +8,6 @@ const submit = document.getElementById('submit').addEventListener('click', funct
     postToNewServer(post);
 })
 
-
-
-
-
-
-
-
 function postToNewServer(postInfo){
     fetch('https://jsonplaceholder.typicode.com/posts',{
         method:'POST',
